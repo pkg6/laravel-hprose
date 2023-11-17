@@ -1,0 +1,33 @@
+{
+  "name": "pkg6/laravel-hprose",
+  "description": "Laravel Hprose",
+  "type": "library",
+  "license": "Apache-2.0",
+  "keywords": [
+    "laravel",
+    "hprose",
+    "hprose-server",
+    "hprose-client"
+  ],
+  "authors": [
+    {
+      "name": "qmister",
+      "email": "tp5er@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "hprose/hprose": "^v2.0",
+    "doctrine/instantiator": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "pkg6\\laravel\\Hprose\\": "src/"
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "^6|^7|^8",
+    "laravel/lumen-framework": "^6|^7|^8"
+  }
+}
